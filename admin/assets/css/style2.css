@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --clr-neutral-900:hsl(207,19%,9%);
+    --clr-neutral-100:hsl(0,0%,100%);
+    --clr-neutral-400:rgb(2, 255, 78);
+
+}
+.container2{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(3, 29, 54, 0.781),rgba(15, 43, 13, 0.781)), url(../img/diu14.png);
+    background-position: left;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+
+.container3{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(3, 29, 54, 0.781),rgba(15, 43, 13, 0.781)), url(../img/diu05.png);
+    background-position: left;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-top: px;
+    margin-left: 0;
+    width: 80px;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+.col{
+    flex-basis: 50%;
+}
+
+.h1{
+    color: #fff;
+    font-size: 100px;
+}
+.p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.card{
+    color: var(--clr-neutral-100);
+    padding: 10rem 0 0;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 10px;
+    background-image: url(../img/diu01.png);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    text-align: left;
+    
+}
+
+/*New */
+*,
+*::befor,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    line-height: 1.6;
+    background: var(--clr-neutral-900);
+    font-family: sans-serif;
+    /* padding-right: 15em; */
+}
